@@ -5,10 +5,7 @@ import time
 import urllib
 import imutils
 
-#img = cv2.imread('C:\Users\chimi\Desktop\Lenna.png') #load RGB image
-#cap = cv2.VideoCapture('C:\Users\chimi\Desktop\peoplecounter.avi') #Open video file
-cap = cv2.VideoCapture("rtsp://admin:Ab017201@192.168.0.10:554/cam/realmonitor?channel=1&subtype=0")
-#cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 #cv2.VideoCapture.set.PROP_BUFFERSIZE(cap,3)
 
 #Contadores de entrada y salida
